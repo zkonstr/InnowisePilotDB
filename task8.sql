@@ -1,8 +1,8 @@
 USE [BankingDB]
 GO
 
-CREATE TRIGGER AccountBalanceCheck
-ON Accounts
+CREATE TRIGGER account_balance_check
+ON accounts
 AFTER INSERT, UPDATE
 AS 
 BEGIN
